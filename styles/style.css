@@ -149,6 +149,13 @@ body{
     text-decoration: none;
 }
 
+.marquee{
+    color: rgba(240, 170, 0, 1);
+}
+.marq1{
+    color: rgba(100, 200, 255, 1);;
+}
+
 
 
 /* banner styles */
@@ -481,15 +488,16 @@ body{
         display: none;
     }
 
-    body{
-        width: 100%;
-    }
+    /* body{
+        max-width: 100%;
+    } */
 
 
 /* header styles */
 
 /* nav styles */
     .navbar{
+        margin: 0;
         padding: 16px 16px;
         border: 0.5px solid rgba(254, 163, 1, 1);
     }
@@ -503,6 +511,7 @@ body{
     .banner{
         flex-direction: column-reverse;
         padding: 20px 10px;
+        margin: 8px 16px 0 16px;
         gap: 18px;
     }
 
@@ -511,7 +520,8 @@ body{
     }
 
     .banner-info{
-        width: 92%;
+        /* width: 357px; */
+        width: 91.5vw;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -521,6 +531,7 @@ body{
     }
 
     .banner-description{
+        margin: 18px;
         font-size: 0.875rem;
         font-weight: 500;
     }
@@ -529,11 +540,17 @@ body{
 
     /* curriculum */
     .curriculum{
-        margin: 40px 0 20px;
+        padding: 40px 16.5px 20px 16.5px;
+    }
+
+    .section-title{
+        margin-top: 0;
+        margin-bottom: 20px;
     }
 
     .card{
-        width: 92%;
+        /* width: 92%; */
+        width: 92vw;
     }
 
     .card > img{
@@ -570,7 +587,7 @@ body{
 
     /* stories styles */
     .stories{
-        margin: 40px auto;
+        margin-top: 40px;
     }
 
     .four-stories{
@@ -604,9 +621,9 @@ body{
     }
 
     .story2345{
-        width: 173px;
+        /* width: 173px; */
         border-radius: 9.5px;
-        /* width: 45%; */
+        width: 45vw;
     }
 
     
@@ -630,6 +647,8 @@ body{
     }
 
     .view-btn{
+        margin-top: 20px;
+        margin-bottom: 40px;
         font-size: 16px;
     }
 
@@ -637,21 +656,34 @@ body{
     /* footer section */
 
     .footer{
+        max-width: 390px;
         padding: 64px 12px 61px 21px;
     }
 
     .footer-info-container{
+        width: 357px;
         flex-direction: column;
         gap: 32px;
     }
 
     .conclusion-logo-n-title{
-        width: 250px;
+        /* width: 250px; */
+        width: 64vw;
         margin-bottom:22.5px;
         justify-content: left;
         align-items: center;
         gap: 10px;
     }
+
+    /* .conclusion-logo{
+        width: 100%;
+        height: auto;
+    }
+
+    .conclusion-title{
+        width: 172px;
+        font-size: 2.18rem;
+    } */
 
     .conclusion-description{
         width: 355px;
