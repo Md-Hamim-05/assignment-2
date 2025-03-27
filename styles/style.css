@@ -43,7 +43,7 @@ body{
 }
 
 .general-bg-image{
-    background-image: url(../images/bg.png); /* main section bg*/
+    background-image: url(../images/bg.png); 
 }
 
 .stories{
@@ -191,7 +191,6 @@ body{
 .card-container{
     margin: 80px 0;
     justify-content: space-between;
-    /* gap: 28px; */
     flex: 1;
 }
 
@@ -323,15 +322,12 @@ body{
     font-size: .95rem;
     font-weight: 500;
     color: rgba(102, 102, 102, 1);
-    /* margin: 0 0 35px 38px; */
 }
 
 /* four-stories styles */
 .story2345{
     width: 291px;
     background-color: white;
-    /* margin-left: 37.5px;
-    margin-bottom: 28px; */
     border-radius: 16px;
 }
 
@@ -343,7 +339,6 @@ body{
 }
 
 .story2345-info-container{
-    /* background-color: white; */
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     margin-left: 37.5px;
@@ -383,7 +378,7 @@ body{
 }
 
 .story2345-title{
-    /* width: 74%; */
+    /* width: 74vw; */
     width: 214px;
     font-size: 0.94rem;
     font-weight: 700;
@@ -488,11 +483,6 @@ body{
         display: none;
     }
 
-    /* body{
-        max-width: 100%;
-    } */
-
-
 /* header styles */
 
 /* nav styles */
@@ -549,7 +539,6 @@ body{
     }
 
     .card{
-        /* width: 92%; */
         width: 92vw;
     }
 
@@ -603,8 +592,7 @@ body{
     }
 
     .date234{
-        /* here we have something understand */
-        /* width: 26%; */
+        /* width: 26vw; */
         width: 103px;
         font-size: 0.6rem;
         padding: 5.5px 11px 6px 11px;
@@ -622,8 +610,8 @@ body{
 
     .story2345{
         /* width: 173px; */
-        border-radius: 9.5px;
         width: 45vw;
+        border-radius: 9.5px;
     }
 
     
@@ -675,16 +663,6 @@ body{
         gap: 10px;
     }
 
-    /* .conclusion-logo{
-        width: 100%;
-        height: auto;
-    }
-
-    .conclusion-title{
-        width: 172px;
-        font-size: 2.18rem;
-    } */
-
     .conclusion-description{
         width: 355px;
         font-size: 1rem;
@@ -720,8 +698,6 @@ body{
         justify-content: left;
         gap: 8.5px;
     }
-
-
 }
 
 
